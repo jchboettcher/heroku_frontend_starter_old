@@ -2,7 +2,7 @@ module.exports = {
   client: {
     service: {
       name: 'app-backend',
-      url: 'https://hph-leaderboard.herokuapp.com/',
+      url: 'http://localhost:4000/graphql/',
     },
   },
 }

@@ -1,3 +1,3 @@
 export default {
-  graphqlUrl: 'https://hph-leaderboard.herokuapp.com/',
+  graphqlUrl: 'http://localhost:4000/graphql/',
 }
