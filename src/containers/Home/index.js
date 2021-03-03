@@ -11,15 +11,15 @@ const Home = () => {
   }
   return (
     <div>
-      <h1>Authors</h1>
+      <h1>Users</h1>
       {queryLoading ? 'Loading...' : (
-        data.allAuthors.length
-          ? (data.allAuthors.map(entry => (
+        data.allUsers.length
+          ? (data.allUsers.map(entry => (
             entry ? (
               <p key={entry.id}>{`${entry.displayName}: ${entry.score}`}</p>
             ) : ''
           )))
-          : <p>No authors to show.</p>)}
+          : <p>No users to show.</p>)}
     </div>
   )
 }
