@@ -1,3 +1,3 @@
-export default {
-  graphqlUrl: 'https://hph-leaderboard-backend.herokuapp.com/',
-}
+// export default {
+//   graphqlUrl: 'https://hph-leaderboard-backend.herokuapp.com/graphql',
+// }
